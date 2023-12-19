@@ -52,8 +52,11 @@ section .sectioncon input {
   width: 30%;
   height: 40px;
   margin: auto;
-  padding-left: 5px;
+  padding-left: 10px;
   font-size: 20px;
+  border-radius: 20px;
+  outline: none;
+  border: 0.1px solid black;
 }
 section .sectioncon .sectiondiv {
   width: 100%;
@@ -71,6 +74,57 @@ section .sectioncon .sectiondiv div {
   justify-content: center;
   gap: 40px;
 }
+section .sectioncon .sectiondiv div span {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+section .sectioncon .sectiondiv div span .first {
+  background-color: red;
+  width: 30%;
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.8s ease;
+}
+section .sectioncon .sectiondiv div span .first:hover {
+  transform: scale(1.1);
+}
+section .sectioncon .sectiondiv div span .second {
+  background-color: rgb(0, 81, 255);
+  width: 30%;
+  display: flex;
+  color: rgb(255, 255, 255);
+  gap: 10px;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.8s ease;
+}
+section .sectioncon .sectiondiv div span .second:hover {
+  transform: scale(1.1);
+}
+section .sectioncon .sectiondiv div span .sort {
+  background-color: green;
+  width: 30%;
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.8s ease;
+}
+section .sectioncon .sectiondiv div span .sort:hover {
+  transform: scale(1.1);
+}
 section .sectioncon .sectiondiv div h2 a {
   color: rgb(4, 23, 53);
   font-size: 25px;
@@ -86,7 +140,13 @@ section .sectioncon button {
   margin: auto;
   height: 40px;
   border: none;
+  border-radius: 20px;
   background-color: blue;
   color: white;
   cursor: pointer;
+  cursor: pointer;
+  transition: 0.8s ease;
+}
+section .sectioncon button:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */

@@ -41,8 +41,11 @@ section {
             width: 30%;
             height: 40px;
             margin: auto;
-            padding-left: 5px;
+            padding-left: 10px;
             font-size: 20px;
+            border-radius: 20px;
+            outline: none;
+            border: 0.1px solid black;
         }
 
         .sectiondiv {
@@ -60,6 +63,64 @@ section {
                 text-align: center;
                 justify-content: center;
                 gap: 40px;
+                span{
+                    width: 100%;
+                    display: flex;
+                    gap: 20px;
+                    .first{
+                        background-color: red;
+                        width: 30%;
+                        display: flex;
+                        gap: 10px;
+                        font-size: 15px;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        transition: 0.8s ease;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                        
+                    }
+                    .second{
+                        background-color: rgb(0, 81, 255);
+                        width: 30%;
+                        display: flex;
+                        color: rgb(255, 255, 255);
+
+                        gap: 10px;
+                        font-size: 15px;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        transition: 0.8s ease;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                        
+                        
+                    }
+                    .sort{
+                        background-color: green;
+                        width: 30%;
+                        display: flex;
+                        gap: 10px;
+                        font-size: 15px;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        transition: 0.8s ease;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                        
+                        
+                    }
+
+                }
 
                 h2 {
                     a{
@@ -81,9 +142,16 @@ section {
             margin: auto;
             height: 40px;
             border: none;
+            border-radius: 20px;
             background-color: blue;
             color: white;
             cursor: pointer;
+            cursor: pointer;
+            transition: 0.8s ease;
+            &:hover{
+                transform: scale(1.1);
+            }  
         }
     }
-}
+        }
+    
